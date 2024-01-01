@@ -36,7 +36,7 @@ void application_controller::new_job()
     std::string job_name = params[0];
 
     const char* const job_header_format =
-R"~~~(#include <job.hpp>
+R"~~~(#include <uva/job.hpp>
 
 using namespace uva;
 using namespace job;

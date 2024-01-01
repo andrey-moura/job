@@ -7,7 +7,7 @@ add_library(uva-job
 	${CMAKE_CURRENT_LIST_DIR}/src/job.cpp
 )
 
-include_directories(${CMAKE_CURRENT_LIST_DIR}/include)
+include_directories(${CMAKE_CURRENT_LIST_DIR})
 
 set(JOB_ROOT_DIR ${CMAKE_CURRENT_LIST_DIR})
 include(${JOB_ROOT_DIR}/job.cmake)
